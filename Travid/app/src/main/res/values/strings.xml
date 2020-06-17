@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Travid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+<string name="bluetooth_locate_service_desc"> Find bluetooth devices near you </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">679452972618333</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb679452972618333</string>
+    <string name="name_anonymous">Anonymous</string>
+    <string name="bluetooth_discovery_switch">Allow others to find me</string>
+    <string name="bluetooth_address_explanation">For your security, we are prohibited from getting your Bluetooth address Directly. Kindly get it from settings and paste it here. Thanks.</string>
+    <string name="submit_address">Submit</string>
+    <string name="cancel_submit">Cancel</string>
+    <string name="mac_example">e.g 00:A1:B2:CD:3C:00</string>
+    <string name="permission_explanation">Bluetooth functionality is at the core of Travid, and Bluetooth comes bundled with location. We hope you reconsider later.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="drop_table">DROP TABLE IF EXISTS</string>
+    <string name="backgroundPermissionExplanation"> To enable us get location in the background, click \"I consent\" -> Permissions -> Location -> allow all the time ></string>
+    <string name="dialog_allow_background_positive">I consent </string>
+    <string name="dialog_allow_background_negative">I do not Consent</string>
+    <string name="ok">Okay</string>
+    <string name="got_it">Got it</string>
+
+</resources>

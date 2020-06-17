@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="password_hint">password</string>
+    <string name="email_hint">e.g xyz@company.com</string>
+    <string name="welcome_msg">Hello {}, welcome to your room</string>
+    <string name="heading">Pending Course evaluations:</string>
+    <string name="topic">Did you enjoy the course?</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="cs251">CS 251: Data structures and algorithms</string>
+    <string name="cs261">CS 261: Machine Organization</string>
+    <string name="math210">Math 210: Calculus 3</string>
+    <string name="pols101">Pols 101: Intro to American politics</string>
+    <string name="add_contact">add contact</string>
+    <string name="drop_table">DROP TABLE IF EXISTS</string>
+    <string name="add_to_contacts">Add To Contacts</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="courses">
+        <item>@string/cs251</item>
+        <item>@string/cs251</item>
+        <item>@string/math210</item>
+        <item>@string/pols101</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".fragment.ContactDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:foreground="@drawable/circle_background"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/male_user"
+                android:id="@+id/contact_img"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oluwatise Olasebikan"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textSize="24sp"
+                android:id="@+id/contact_name"
+                android:layout_below="@id/contact_img"
+                android:layout_marginTop="28dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(773)-808-0329"
+                android:layout_centerHorizontal="true"
+                android:textSize="24sp"
+                android:id="@+id/contact_number"
+                android:layout_below="@id/contact_name"
+                android:layout_marginTop="40dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/facebook_icon"
+                android:layout_marginTop="28dp"
+                android:id="@+id/fb_logo"
+                android:layout_below="@id/contact_number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/fb_logo"
+                android:layout_alignBottom="@id/fb_logo"
+                android:layout_marginStart="16dp"
+                android:id="@+id/fb_name"
+                android:textSize="18dp"
+                android:text="Tise"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/age_icon"
+                android:layout_marginTop="28dp"
+                android:id="@+id/birthday_logo"
+                android:layout_below="@id/fb_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/fb_logo"
+                android:layout_alignBottom="@id/birthday_logo"
+                android:layout_marginStart="16dp"
+                android:id="@+id/birthday"
+                android:textSize="18dp"
+                android:text="Tise"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

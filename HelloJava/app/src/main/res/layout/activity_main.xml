@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/one_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/zero_btn"
+        app:layout_constraintEnd_toStartOf="@+id/two_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/one_img" />
+
+    <ImageView
+        android:id="@+id/two_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/dot_btn"
+        app:layout_constraintEnd_toStartOf="@+id/three_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/one_btn"
+        app:srcCompat="@drawable/two_img"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <ImageView
+        android:id="@+id/three_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/equals_btn"
+        app:layout_constraintEnd_toStartOf="@+id/minus_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/two_btn"
+        app:srcCompat="@drawable/three_img"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <ImageView
+        android:id="@+id/minus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/plus_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/three_btn"
+        app:srcCompat="@drawable/minus_img"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <ImageView
+        android:id="@+id/zero_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dot_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zero_img" />
+
+    <ImageView
+        android:id="@+id/dot_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/equals_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/zero_btn"
+        app:srcCompat="@drawable/dot_img" />
+
+    <ImageView
+        android:id="@+id/equals_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/plus_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dot_btn"
+        app:srcCompat="@drawable/equals_img"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <ImageView
+        android:id="@+id/plus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/equals_btn"
+        app:srcCompat="@drawable/plus_img"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <ImageView
+        android:id="@+id/four_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/one_btn"
+        app:layout_constraintEnd_toStartOf="@+id/five_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/four_img" />
+
+    <ImageView
+        android:id="@+id/five_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/two_btn"
+        app:layout_constraintEnd_toStartOf="@+id/six_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/four_btn"
+        app:srcCompat="@drawable/five_img"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/six_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/three_btn"
+        app:layout_constraintEnd_toStartOf="@+id/times_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/five_btn"
+        app:srcCompat="@drawable/six_img"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/times_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/minus_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/six_btn"
+        app:srcCompat="@drawable/times_image"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+        android:id="@+id/seven_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/four_btn"
+        app:layout_constraintEnd_toStartOf="@+id/eight_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/seven_img" />
+
+    <ImageView
+        android:id="@+id/eight_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/five_btn"
+        app:layout_constraintEnd_toStartOf="@+id/nine_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/seven_btn"
+        app:srcCompat="@drawable/eight_img" />
+
+    <ImageView
+        android:id="@+id/nine_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/six_btn"
+        app:layout_constraintEnd_toStartOf="@+id/divide_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/eight_btn"
+        app:srcCompat="@drawable/nine_img" />
+
+    <ImageView
+        android:id="@+id/divide_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/times_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nine_btn"
+        app:srcCompat="@drawable/divide_img" />
+
+    <TextView
+        android:id="@+id/calc_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial"
+        android:maxLines="1"
+        android:textAlignment="viewEnd"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/seven_btn"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

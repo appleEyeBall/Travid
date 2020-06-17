@@ -1,0 +1,3 @@
+rootProject.name='HelloJava'
+include ':app'
+include ':javaLessons'

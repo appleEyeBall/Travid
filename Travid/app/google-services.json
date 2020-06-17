@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863542102599",
+    "firebase_url": "https://travid-efb18.firebaseio.com",
+    "project_id": "travid-efb18",
+    "storage_bucket": "travid-efb18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863542102599:android:19cdc067a1d99e2f5aff62",
+        "android_client_info": {
+          "package_name": "com.oolase.travid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863542102599-7fjs3c33328b9gk4ks822prepsi9iao2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oolase.travid",
+            "certificate_hash": "dbf9bed31ffae51e98ce5a0a4b8b2d4451b96b4d"
+          }
+        },
+        {
+          "client_id": "863542102599-co4o6mepeb6vmsvneq22ssq41e7f35uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyDwXCnkXTxNpNikdBlVYoz3amhEyCOcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863542102599-co4o6mepeb6vmsvneq22ssq41e7f35uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HelloJava</string>
+    <string name="trueVal">True</string>
+    <string name="falseVal">False</string>
+    <string name="correct"> Correct. Try the next one </string>
+    <string name="wrong"> Wrong. Try again </string>
+    <string name="complete"> All questions answered </string>
+    <string name="initial">0</string>
+
+    <string-array name="questions_array">
+        <item> Cyclones spin in a clockwise direction in the southern hemisphere </item>
+        <item> Goldfish only have a memory of three seconds </item>
+        <item> The capital of Libya is Benghazi </item>
+        <item> Brazil is the only country in the Americas to have the official language of Portuguese </item>
+        <item> The Channel Tunnel is the longest rail tunnel in the world </item>
+        <item> Darth Vader famously says the line “Luke, I am your father” in The Empire Strikes Back </item>
+        <item> Olivia Newton-John represented the UK in the Eurovision Song Contest in 1974, the year ABBA won with “Waterloo” </item>
+        <item> Stephen Hawking declined a knighthood from the Queen </item>
+        <item> The highest mountain in England is Ben Nevis </item>
+        <item> Nicolas Cage and Michael Jackson both married the same woman </item>
+    </string-array>
+
+    <string-array name="answers_array">
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+        <item>True</item>
+        <item>False</item>
+        <item>False</item>
+        <item>True</item>
+        <item>True</item>
+        <item>False</item>
+        <item>True</item>
+
+    </string-array>
+
+</resources>

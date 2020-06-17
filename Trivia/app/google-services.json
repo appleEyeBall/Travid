@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980612723812",
+    "firebase_url": "https://triviacontacts.firebaseio.com",
+    "project_id": "triviacontacts",
+    "storage_bucket": "triviacontacts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980612723812:android:859602e650398b09399b71",
+        "android_client_info": {
+          "package_name": "com.example.trivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980612723812-lpo1o701salt6rl2bcpg33tmh03aknl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trivia",
+            "certificate_hash": "dbf9bed31ffae51e98ce5a0a4b8b2d4451b96b4d"
+          }
+        },
+        {
+          "client_id": "980612723812-tq22j1ddu0ies2ofpe7bqvep663r3qdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQj3aJUYVmsHKL0rRKGzd9jHYaYKSASgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980612723812-tq22j1ddu0ies2ofpe7bqvep663r3qdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
